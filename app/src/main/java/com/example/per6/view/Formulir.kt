@@ -89,7 +89,7 @@ fun FromIsian(
                     .padding(all = 25.dp),
                 onClick = OnSubmitBtnClick
             ) {
-
+                Text(stringResource(id = R.string.submit))
             }
         }
 
